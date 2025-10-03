@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712636295731",
+    "project_id": "backlog-gamer",
+    "storage_bucket": "backlog-gamer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712636295731:android:46c3a61bd0bd0745715146",
+        "android_client_info": {
+          "package_name": "com.stackmobile.backloggamer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDumXGQF4NSfhtLcVbFPZTq4q4iNFBJGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

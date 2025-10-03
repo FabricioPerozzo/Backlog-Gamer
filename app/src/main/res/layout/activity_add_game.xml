@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Jogo"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#8B5CF6"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtGamePlatform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plataforma (ex: PC, PS5, Xbox)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#8B5CF6"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+
+    <Spinner
+        android:id="@+id/spnGameStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#8B5CF6"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSaveGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:backgroundTint="#8B5CF6"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:backgroundTint="#666666"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
